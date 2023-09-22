@@ -106,35 +106,51 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 
 
-### PROGRAM 
-/*
+### PROGRAM:
+### SR PROGRAM:
+'''
+module exp5(s,r,q,qbar,clk);
+input s,r,clk;
+output reg q,qbar;
+initial q = 0;
+initial qbar = 1;
+always @(posedge clk)
+begin  
+q = s|(q&(~r));
+qbar = r|(qbar&(~s));
+end 
+endmodule
+'''
+### JK PROGRAM:
+'''
+module exp5b(J,K,clk,Q,Qbar);
+input J,K,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=(J&(~Q))|((~K)&Q);
+Qbar=((~J)&(Qbar))|K&(~Qbar);
+end
+endmodule
+'''
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-
-
-
-
-
-
+### Developed by: LOKESH R
+### RegisterNumber: 212222240055  
 ### RTL LOGIC FOR FLIPFLOPS 
-
-
-
-
-
-
-
-
+### SR:
+![sr rtl](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/468b2765-1e2c-4d19-b312-71fb40c694e7)
+### JK:
+![JK RTL](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/81435e31-962a-44c8-b130-5606e8b60024)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
+### SR:
+![sr awve](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/28cfad1d-233a-4dc7-a91a-4c2230b68230)
+### JK:
+![JK wave](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/99c112af-cbb5-40bd-b3e3-f0ff7ab58924)
 
+### RESULTS :
 
-
-
-
-
-
-### RESULTS 
