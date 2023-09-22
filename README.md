@@ -151,6 +151,9 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 ![sr awve](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/28cfad1d-233a-4dc7-a91a-4c2230b68230)
 ### JK:
 ![JK wave](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/57f06c30-a4bb-4b70-b173-14cacc3e61dc)
+### TRUTH TABLE DIAGRAMS:
+### JK:
+![Uploading JK TT.jpeg…]()
 
 ### RESULTS :
 
