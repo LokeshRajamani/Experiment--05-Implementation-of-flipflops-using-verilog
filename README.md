@@ -108,7 +108,7 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 ### PROGRAM:
 ### SR PROGRAM:
-'''
+```
 module exp5(s,r,q,qbar,clk);
 input s,r,clk;
 output reg q,qbar;
@@ -120,9 +120,9 @@ q = s|(q&(~r));
 qbar = r|(qbar&(~s));
 end 
 endmodule
-'''
+```
 ### JK PROGRAM:
-'''
+```
 module exp5b(J,K,clk,Q,Qbar);
 input J,K,clk;
 output reg Q;
@@ -135,7 +135,7 @@ Q=(J&(~Q))|((~K)&Q);
 Qbar=((~J)&(Qbar))|K&(~Qbar);
 end
 endmodule
-'''
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 ### Developed by: LOKESH R
 ### RegisterNumber: 212222240055  
@@ -150,7 +150,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 ### SR:
 ![sr awve](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/28cfad1d-233a-4dc7-a91a-4c2230b68230)
 ### JK:
-![JK wave](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/99c112af-cbb5-40bd-b3e3-f0ff7ab58924)
+![JK wave](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/57f06c30-a4bb-4b70-b173-14cacc3e61dc)
 
 ### RESULTS :
 
