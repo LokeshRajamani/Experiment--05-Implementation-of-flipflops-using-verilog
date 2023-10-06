@@ -136,6 +136,36 @@ Qbar=((~J)&(Qbar))|K&(~Qbar);
 end
 endmodule
 ```
+### D FLIP FLOP:
+```
+module flipflops(D,clk,Q,Qbar);
+input D,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=D;
+Qbar=~D;
+end
+endmodule
+```
+### T FLIP FLOP:
+```
+module flipflops(T,clk,Q,Qbar);
+input T,clk;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=(T&(~Q))|((~T)&Q);
+Qbar=((~T)&Qbar)|(T&(~Qbar));
+end
+endmodule
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 ### Developed by: LOKESH R
 ### RegisterNumber: 212222240055  
