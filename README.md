@@ -174,16 +174,23 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 ![sr rtl](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/468b2765-1e2c-4d19-b312-71fb40c694e7)
 ### JK:
 ![JK RTL](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/81435e31-962a-44c8-b130-5606e8b60024)
-
+### D:
+![D FF](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/f3a97b15-04da-4a0e-a915-0f596b332b54)
+### T:
+![T FP](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/d2be38f8-0de0-4f0a-8f2f-273fca5c085a)
 ### TIMING DIGRAMS FOR FLIP FLOPS 
-
 ### SR:
 ![sr awve](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/28cfad1d-233a-4dc7-a91a-4c2230b68230)
 ### JK:
 ![JK wave](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/57f06c30-a4bb-4b70-b173-14cacc3e61dc)
+### D:
+![D TT](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/14961240-834c-46e3-b37c-a4c24101fec9)
+
+### T:
+![T WV](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/0f58ecfb-aab6-4733-a106-bc88fdbb0b8f)
+
 ### TRUTH TABLE DIAGRAMS:
 ### JK:
-![Uploading JK TT.jpeg…]()
 
 ### RESULTS :
 
