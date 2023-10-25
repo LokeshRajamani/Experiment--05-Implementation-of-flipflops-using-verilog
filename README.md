@@ -187,8 +187,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 ![D TT](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/14961240-834c-46e3-b37c-a4c24101fec9)
 ### T:
 ![T WV](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/0f58ecfb-aab6-4733-a106-bc88fdbb0b8f)
-### TRUTH TABLE DIAGRAMS:
-### JK:
-
+### TRUTH TABLE DIAGRAM:
+![tt](https://github.com/LokeshRajamani/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120544804/142f0b86-bb75-4859-ab5a-c2da7a64b514)
 ### RESULTS :
-
+Therefore implementation o flip flops using verilog is successfully completed
